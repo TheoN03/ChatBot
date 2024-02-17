@@ -1,0 +1,10 @@
+You: hello
+Chef AI: Hello!
+You: what should i cook?
+Chef AI: You can make a cheeseburger! For that you need: buns, minced beef, slices of cheese, pickles, ketchup, mayo, mustard!
+You: another suggestion?
+Chef AI: You can make a sandwich! For that you need; bread, cheese slices, lettuce, ham, tomato slices!
+You: thank you
+Chef AI: Any time!
+You: bye
+Chef AI: Have a nice day!

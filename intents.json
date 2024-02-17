@@ -1,0 +1,71 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi!",
+                "Hey!",
+                "Hello!"
+            ],
+        "responses": [
+            "Hey!",
+            "Hello!",
+            "Hi, how can I help?",
+            "Hello! What can i do for you?"
+        ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye!","See you later!", "Goodbye!"],
+            "responses": [
+                "See you later, thanks for visiting!",
+                "Have a nice day!",
+                "Bye! Come back soon if you need my help."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks!", "Thank you!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure!"]
+        },
+        {
+            "tag": "recipes",
+            "patterns": [
+                "What recipes do you have?",
+                "What do you do?"
+            ],
+            "responses": [
+                "I have some easy recipes for you.",
+                "I recommend you recipes and ingredients for them."
+            ]
+        },
+        {
+            "tag": "Recommendation",
+            "patterns": [
+                "Can you recommend me a recipe?",
+                "What can I do fast?",
+                "What is today's menu chef?",
+                "Recommend me something!",
+                "Other recipe.",
+                "Another one!",
+                "Another recipe!"
+            ],
+            "responses": [
+                "You can make pasta! For that you need: pasta, tomato paste, onions, garlic cheese, seasoning!",
+                "You can make a sandwich! For that you need; bread, cheese slices, lettuce, ham, tomato slices!",
+                "You can make pizza! For that you need: pizza dough, tomato paste, cheese, pepperoni, mushrooms, olives!",
+                "You can make a cheeseburger! For that you need: buns, minced beef, slices of cheese, pickles, ketchup, mayo, mustard!"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "How much time does it take?",
+                "How long does it take?"
+            ],
+            "responses": [
+                "It should take between 30 minutes and an hour based on your knife skills and how lazy you are! :)"
+            ]
+        }
+    ]
+}
