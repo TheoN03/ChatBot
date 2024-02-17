@@ -1,6 +1,7 @@
 ChefBot is an AI program trained using Pytorch. The purpose of the program is to send recipes and basic ingredients when you ask it.
 
 Interface: GUI - Tkinter
+
 Database: intents.json file
 
 
