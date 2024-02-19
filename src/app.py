@@ -104,19 +104,19 @@ class ChatApplication:
         Exits fullscreen mode when Escape key is pressed.
         """
         self.window.attributes('-fullscreen', False)
-        self._save_chat_history()
+        save_chat_history(self.history)
 
-    def _save_chat_history(self):
-        """
-        Saves the chat history to a text file.
-        """
-        try:
-            with open("chat_history.txt", "w") as fin:
-                for msg, sender in self.history:
-                    fin.write(f"{sender}: {msg}\n")
-            logging.info("Chat history saved successfully.")
-        except OSError as err:
-            logging.error(f"Error saving chat history: {err}")
+def save_chat_history(history):
+    """
+    Saves the chat history to a text file.
+    """
+    try:
+        with open("chat_history.txt", "w") as fin:
+            for msg, sender in history:
+                fin.write(f"{sender}: {msg}\n")
+        logging.info("Chat history saved successfully.")
+    except OSError as err:
+        logging.error(f"Error saving chat history: {err}")
 
 
 if __name__ == "__main__":
