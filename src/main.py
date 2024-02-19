@@ -1,8 +1,8 @@
 import random
 import json
 import torch
-from model import NeuralNetwork
-from nltk_utils import bag_of_words, tokenize
+from src.model import NeuralNetwork
+from src.nltk_utils import bag_of_words, tokenize
 import logging
 
 

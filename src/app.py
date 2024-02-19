@@ -1,5 +1,5 @@
 from tkinter import *
-from main import bot_name, get_response
+from src.main import bot_name, get_response
 import logging
 
 BG_GRAY = "#ABB2B9"

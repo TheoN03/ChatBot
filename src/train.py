@@ -1,10 +1,10 @@
 import json
 import numpy as np
-from nltk_utils import tokenize, stem, bag_of_words
+from src.nltk_utils import tokenize, stem, bag_of_words
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from model import NeuralNetwork
+from src.model import NeuralNetwork
 import logging
 
 
