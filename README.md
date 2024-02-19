@@ -6,7 +6,7 @@ Database: intents.json file
 
 
 Program summary: When the model enters the training stage, it will save a data.pth file. 
-After that the main.py file is connected to the Tkinter file named app.py. 
+After that, the main.py file is connected to the Tkinter file named app.py. 
 When you run the program, the GUI appears like a chat box message and you can start texting the ChefBot.
 In the end when you want to close the execution, press ESCAPE to exit fullscreen and you can press X button on the window to close.
 
