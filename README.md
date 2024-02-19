@@ -10,7 +10,7 @@ After that, the main.py file is connected to the Tkinter file named app.py.
 When you run the program, the GUI appears like a chat box message and you can start texting the ChefBot.
 In the end when you want to close the execution, press ESCAPE to exit fullscreen and you can press X button on the window to close.
 
-* After the execution there will be created a file called chat_history.txt. In that file will be ONLY the last execution chat history, not all of them.
+* After the execution, a file called chat_history.txt will be created. In that file you eill find ONLY the last execution's chat history, not all of them.
 
 Requirements: Pytorch, NLTK, torchvision, numpy. The rest of the packages are built-in.
 ** I recommend to create a virtual environment for the program.
