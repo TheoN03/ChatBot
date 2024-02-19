@@ -1,3 +1,4 @@
+import os
 from tkinter import *
 from src.main import bot_name, get_response
 import logging
@@ -106,17 +107,25 @@ class ChatApplication:
         self.window.attributes('-fullscreen', False)
         save_chat_history(self.history)
 
+
 def save_chat_history(history):
     """
-    Saves the chat history to a text file.
+    Saves the chat history to a text file in the 'data' directory.
     """
+    data_directory = "data"
+    file_path = os.path.join(data_directory, "chat_history.txt")
+
     try:
-        with open("chat_history.txt", "w") as fin:
+        if not os.path.exists(data_directory):
+            os.makedirs(data_directory)
+
+        with open(file_path, "w") as fin:
             for msg, sender in history:
                 fin.write(f"{sender}: {msg}\n")
         logging.info("Chat history saved successfully.")
     except OSError as err:
         logging.error(f"Error saving chat history: {err}")
+
 
 
 if __name__ == "__main__":
